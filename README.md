@@ -4,6 +4,12 @@
 
 A habit with a name. A practice of keeping the parts, before the whole thing goes.
 
+<p align="center">
+  <a href="https://hoynk.issify.com/">
+    <img src=".github/screenshot.png" alt="HOYNK page preview" width="640">
+  </a>
+</p>
+
 **👉 Read the page: [hoynk.issify.com](https://hoynk.issify.com/)**
 
 ---
