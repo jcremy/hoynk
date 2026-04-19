@@ -198,3 +198,68 @@ footer p + p { margin-top: 0.3rem; }
   main { padding-top: 2.25rem; padding-bottom: 1.5rem; }
   section { margin-bottom: 2.75rem; }
 }
+
+/* ---------- Print ---------- */
+
+@media print {
+  :root {
+    --paper: #fff;
+    --ink: #000;
+    --muted: #333;
+    --hairline: #999;
+  }
+
+  body {
+    font-size: 11pt;
+    line-height: 1.45;
+  }
+
+  header,
+  main,
+  footer {
+    max-width: none;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  header {
+    padding-top: 0;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid #000;
+  }
+
+  header h1 {
+    font-size: 22pt;
+    letter-spacing: 0.1em;
+  }
+
+  .tagline { font-size: 8pt; }
+
+  main {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  section { margin-bottom: 1.5rem; page-break-inside: avoid; }
+
+  section h2 { font-size: 12pt; }
+
+  .hero h2 { font-size: 16pt; line-height: 1.2; }
+
+  .hero .emph { font-style: italic; }
+
+  .principles article { margin-bottom: 0.8rem; page-break-inside: avoid; }
+
+  .principles h3 { font-size: 10.5pt; }
+
+  .isnt p { margin-bottom: 0.6rem; }
+
+  footer {
+    padding-top: 0.75rem;
+    padding-bottom: 0;
+    border-top: 1px solid #000;
+    font-size: 8pt;
+  }
+
+  a { color: inherit; text-decoration: none; }
+}
