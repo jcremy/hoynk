@@ -2,7 +2,7 @@
 
 **Hold On! You Never Know.**
 
-Keep the parts, before the whole thing goes. A refusal to default to new when what exists can still do.
+A habit with a name. A practice of keeping the parts, before the whole thing goes.
 
 Read it at **[hoynk.issify.com](https://hoynk.issify.com/)**.
 
